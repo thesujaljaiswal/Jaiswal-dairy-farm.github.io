@@ -20,7 +20,7 @@ function creammilkcake1() {
     document.getElementById("creammilkcake").src = "creammilkcake1.jpg";
 }
 // milk cake
-function milkcaek2() {
+function milkcake2() {
     document.getElementById("milkcake").src = "milkcake2.jpg";
 }
 function milkcake1() {
