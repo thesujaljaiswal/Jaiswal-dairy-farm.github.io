@@ -39,9 +39,20 @@
             height: 6vh;
             background: #ffffff;
             border-radius: 20vh;
+            margin: 0.2rem;
         }
 
         .btnSubmit {
+            width: 40vh;
+            height: 6vh;
+            background: rgb(18, 178, 18);
+            border-radius: 20vh;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 3vh;
+        }
+        .btnhome{
             width: 40vh;
             height: 6vh;
             background: rgb(18, 178, 18);
@@ -57,6 +68,9 @@
 
 <body>
     <div class="container">
+        <div class="home">
+            <a href="index.html"><button class="btnhome">Home</button></a>
+        </div>
         <div class="text">
             <h3 class="register-heading">JDF<br>Review<br>Submission<br>Form</h3>
         </div>
@@ -65,6 +79,10 @@
                 <input type="text" name="Name" class="form-control" placeholder="Your Name" value="" required="" /><br>
                 <input type="text" name="Email" class="form-control" placeholder="Your Email" value="" required="" /><br>
                 <input type="text" name="Review" class="form-control" placeholder="Your review" value="" required="" /><br>
+            </form>
+        </div>
+        <div class="btn">
+            <form>
                 <input type="submit" name="submit" class="btnSubmit" value="Submit Review" />
             </form>
         </div>
